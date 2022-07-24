@@ -1,0 +1,45 @@
+.Parent {
+    /* background-color: blue; */
+    position:relative;
+    left:0;
+    width:20%;
+    height:100%;
+    float:left;
+}
+.Parent img{
+    margin-top: 200px;
+    margin-left:150px;
+    height:600px;
+    width :600px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:azure;
+    
+}
+body{
+    background-color: black ;
+}
+
+.Parent a{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    text-decoration: none;
+    margin-left: 50px;
+    /* How to increase gap between two linkss??? */
+    
+}
+
+.Parent a:hover{
+    color:salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    text-decoration: none;
+    
+}
+
+.Parent p{
+    color:white;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

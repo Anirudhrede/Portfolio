@@ -1,0 +1,78 @@
+body{
+    background-color: black ;
+}
+
+.Selection_Tab {
+    background-color: blue;
+    position:relative;
+    left:0;
+    width:15%;
+    height:100vh;
+    float:left;
+}
+
+.Selection_Tab img{
+    margin-top: 200px;
+    margin-left:150px;
+    height:600px;
+    width :600px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:azure;
+    
+}
+
+.Selection_Tab a{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    text-decoration: none;
+    margin-left: 50px;
+    /* How to increase gap between two linkss??? */
+    
+}
+
+.Selection_Tab a:hover{
+    color:salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    text-decoration: none;
+    
+}
+
+.Selection_Tab p{
+    color:white;
+    text-align:center;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Main_photo {
+    width:85%;
+    background-color:bisque;
+    position: absolute;
+    right:0;
+    float:right;
+    height:100vh;
+    
+}
+
+.Main_photo img{
+    margin-top: auto;
+    margin-left:auto;
+    height:100vh;
+    border-style: solid;
+    border-color:none;
+    position:absolute;
+    
+}
+
+.Main_photo p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color:rgb(0, 0, 0);
+    top:85%;
+    left:50%;
+    position:absolute;
+}
+
